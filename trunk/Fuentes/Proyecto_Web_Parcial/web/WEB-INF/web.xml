@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>/WEB-INF/applicationContext.xml</param-value>
+    </context-param>
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+
+
+    <servlet>
+        <servlet-name>ReservaServlet</servlet-name>
+        <servlet-class>pe.edu.upc.dew.reservahoteles.controller.ReservaServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AutenticacionServlet</servlet-name>
+        <servlet-class>pe.edu.upc.dew.reservahoteles.controller.AutenticacionServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ReservaServlet2</servlet-name>
+        <servlet-class>pe.edu.upc.dew.reservahoteles.controller.ReservaServlet2</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CheckInServlet</servlet-name>
+        <servlet-class>pe.edu.upc.dew.reservahoteles.controller.CheckInServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CheckOutServlet</servlet-name>
+        <servlet-class>pe.edu.upc.dew.reservahoteles.controller.CheckOutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReservaServlet</servlet-name>
+        <url-pattern>/ReservaServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AutenticacionServlet</servlet-name>
+        <url-pattern>/AutenticacionServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ReservaServlet2</servlet-name>
+        <url-pattern>/ReservaServlet2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CheckInServlet</servlet-name>
+        <url-pattern>/CheckInServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CheckOutServlet</servlet-name>
+        <url-pattern>/CheckOutServlet</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
