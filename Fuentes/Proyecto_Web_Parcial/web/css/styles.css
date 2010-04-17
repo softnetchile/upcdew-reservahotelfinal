@@ -1,0 +1,175 @@
+BODY
+{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	MARGIN: 0px;
+	COLOR: gray;
+	FONT-FAMILY: Tahoma, 'Trebuchet MS' , Verdana, Arial;
+	TEXT-ALIGN: justify
+}
+
+TABLE 
+{
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	BORDER-TOP-STYLE: none;
+	PADDING-TOP: 0px;
+	FONT-FAMILY: Tahoma, 'Trebuchet MS' , Verdana, Arial;
+	BORDER-RIGHT-STYLE: none;
+	BORDER-LEFT-STYLE: none;
+	BORDER-BOTTOM-STYLE: none
+}
+
+TABLE TR TD
+{
+	font-size: 12px;
+	FONT-FAMILY: Tahoma, 'Trebuchet MS' , Verdana, Arial;
+}
+
+a:link
+{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: black;
+	text-decoration: underline overline;
+}
+
+a:visited
+{
+	color: black;
+}
+
+.header_menu 
+{
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 5px;
+	FONT-SIZE: 15px;
+	PADDING-BOTTOM: 0px;
+	VERTICAL-ALIGN: baseline;
+	COLOR: darkgreen;
+	PADDING-TOP: 0px;
+	BORDER-BOTTOM: black 1px dotted
+}
+
+.item_menu
+{
+	padding-right: 3px;
+	padding-left: 5px;
+	padding-bottom: 2px;
+	color: black;
+	padding-top: 2px;
+	border-bottom: black 1px dotted;
+	background-color: #cccc99;
+}
+
+H3
+{
+	font-family: 'Trebuchet MS' , Verdana, Tahoma, Arial;
+	font-size: 12pt;
+	color: #a9a9a9;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-top: 0px;
+	border-bottom: 1px solid gainsboro;
+	font-weight: normal;
+}
+
+H4
+{
+	font-size: 16px;
+	color: #336633;
+	font-family: Verdana, 'Trebuchet MS' , Tahoma, Arial;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-top: 0px;
+}
+
+HR
+{
+	color: purple;
+	height: 1px;
+}
+
+.cssInputText
+{
+	font-size: 12px;
+	height: 20px;
+	color: #000000;
+}
+
+.cssInputButton
+{
+	color: #ffffff;
+	border-right: darkolivegreen 1px solid;
+	border-top: darkolivegreen 1px solid;
+	border-left: darkolivegreen 1px solid;
+	border-bottom: darkolivegreen 1px solid;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: 'Trebuchet MS' , Verdana, Tahoma, Arial;
+	cursor: hand;
+	background-color: #bdb76b;
+	height: 20px;
+}
+
+.cssGrid TR TH
+{
+	vertical-align: middle;
+	color: #ffffff;
+	background-color: #006400;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.cssGrid TR TD
+{
+	vertical-align: middle;
+	color: #000000;
+	font-size: 12px;
+	background-color: #f0fff0;
+}
+
+.SELECT
+{
+	vertical-align: middle;
+	color: #000000;
+	font-size: 12px;
+	background-color: #f0fff0;
+}
+
+.cssTabla
+{
+	background-color: #fffff0;
+	border: 1px #eeeeee solid;
+}
+
+.cssTabla TR TH
+{
+	background-color: #cccc99;
+	vertical-align: middle;
+	color: #ffffff;
+	text-align: left;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.cssBarraBotones
+{
+	border: 1px #eeeeee solid;
+	background-color: #fffff0;
+}
+
+.Aviso
+{
+    color: #ff0000;;
+}

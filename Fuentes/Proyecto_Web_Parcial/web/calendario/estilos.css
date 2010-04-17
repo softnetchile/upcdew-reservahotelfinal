@@ -1,0 +1,99 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 0.8em; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+#foto_retrato {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: black 1px solid; PADDING-LEFT: 3px; RIGHT: 15px; PADDING-BOTTOM: 3px; BORDER-LEFT: black 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: black 1px solid; POSITION: absolute; TOP: 5px; BACKGROUND-COLOR: lightyellow; z-order: 101
+}
+TT {
+	FONT-WEIGHT: bold; FONT-FAMILY: Courier New, Courier, monotype
+}
+P {
+	MARGIN-TOP: 0px
+}
+H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 150%
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 120%; BORDER-BOTTOM: black 1px solid
+}
+DT {
+	FONT-WEIGHT: bold
+}
+CITE {
+	PADDING-RIGHT: 5px; MARGIN-TOP: 1em; DISPLAY: block; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; MARGIN-LEFT: 3em; BORDER-LEFT: orange 2px solid; MARGIN-RIGHT: 0px; PADDING-TOP: 5px; FONT-FAMILY: Georgia, serif; BACKGROUND-COLOR: lightyellow
+}
+BLOCKQUOTE {
+	PADDING-RIGHT: 5px; MARGIN-TOP: 1em; DISPLAY: block; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; MARGIN-LEFT: 3em; BORDER-LEFT: orange 2px solid; MARGIN-RIGHT: 0px; PADDING-TOP: 5px; FONT-FAMILY: Georgia, serif; BACKGROUND-COLOR: lightyellow
+}
+CODE {
+	BORDER-RIGHT: orange 1px dashed; PADDING-RIGHT: 5px; BORDER-TOP: orange 1px dashed; MARGIN-TOP: 1em; DISPLAY: block; PADDING-LEFT: 5px; FONT-SIZE: 120%; PADDING-BOTTOM: 5px; MARGIN-LEFT: 3em; BORDER-LEFT: orange 1px dashed; MARGIN-RIGHT: 3em; PADDING-TOP: 5px; BORDER-BOTTOM: orange 1px dashed; BACKGROUND-COLOR: lightyellow
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+#cabecera {
+	BORDER-RIGHT: #000000 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #000000 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 10px; MARGIN: 0px; BORDER-LEFT: #000000 1px solid; COLOR: #000000; PADDING-TOP: 5px; BORDER-BOTTOM: #000000 0px solid; BACKGROUND-COLOR: #d8e2ec
+}
+#cabecera .titulo {
+	FONT-SIZE: 250%; FONT-FAMILY: Impact
+}
+#cabecera .subtitulo {
+	FONT-SIZE: 110%
+}
+#cabecera .titulo A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+#menu {
+	BORDER-RIGHT: #000000 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #000000 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; MARGIN: 0px; BORDER-LEFT: #000000 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #3333cc
+}
+#menu .entrada {
+	BORDER-RIGHT: #000000 2px dotted; PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#menu .entrada A {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 85%; PADDING-BOTTOM: 5px; COLOR: #ffffff; PADDING-TOP: 5px; TEXT-DECORATION: none
+}
+#menu .entrada A:hover {
+	BACKGROUND-COLOR: #9999ff
+}
+#local {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#local #menu_local {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 13em; PADDING-TOP: 0px
+}
+#local #cuerpo {
+	RIGHT: 20px; LEFT: 14em; MARGIN: 0px; POSITION: absolute; TOP: 9em
+}
+#local #cuerpo .titulo {
+	FONT-WEIGHT: bold; FONT-SIZE: 130%; FONT-FAMILY: Tahoma, Helvetica, Sans
+}
+#local #cuerpo .date {
+	
+}
+#local #cuerpo .info {
+	CLEAR: both; FONT-WEIGHT: normal; FLOAT: right
+}
+.cuadro {
+	BORDER-RIGHT: #000000 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #000000 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 85%; PADDING-BOTTOM: 5px; MARGIN: 5px; BORDER-LEFT: #000000 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #d8e2ec
+}
+#enlaces .entrada {
+	BORDER-BOTTOM: #cccccc 1px solid
+}
+#enlaces .entrada A {
+	DISPLAY: block; TEXT-DECORATION: none
+}
+#enlaces .entrada A:hover {
+	BACKGROUND-COLOR: #ccc
+}
+.entrada_weblog {
+	MARGIN-BOTTOM: 80px
+}
+#comentarios {
+	PADDING-RIGHT: 5px; BORDER-TOP: #000000 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BACKGROUND-COLOR: white
+}
+.comentario {
+	BORDER-RIGHT: black 1px dashed; PADDING-RIGHT: 5px; BORDER-TOP: black 1px dashed; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; MARGIN: 5px; BORDER-LEFT: black 1px dashed; PADDING-TOP: 5px; BORDER-BOTTOM: black 1px dashed; BACKGROUND-COLOR: #dedede
+}
+PRE {
+	FONT-SIZE: 1.1em
+}
