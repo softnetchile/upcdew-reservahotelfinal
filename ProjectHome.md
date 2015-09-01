@@ -1,0 +1,1 @@
+Este projecto web le permite reservas habitaciones de un hotel, realizar checkin y checkout.
